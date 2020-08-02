@@ -1,0 +1,466 @@
+/* font-family: "Roboto", sans-serif; 
+font-family: 'Raleway', sans-serif;*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+  body {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .logo {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: black;
+        text-decoration: none;
+        margin-right: 85px;
+        align-items: center;
+      } 
+  
+
+  .web {
+    color: #2196F3;
+  }    
+
+  .menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #2196F3;
+  }
+
+  .menu-list {
+      list-style: none;
+      display: flex;
+      width: 122px;
+      height: 16px;
+      left: 1263px;
+      top: 32px;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  .menu-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .flexbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .contact-item {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    
+  }
+
+  .contact-item:hover,
+  .contact-item:focus {
+    color: #2196F3;
+  }
+
+  .contact-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: #2196F3;
+  }
+
+  .page-title {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 60px;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin: 0px;
+   padding-bottom: 30px;
+  }
+
+  .title {
+    background: rgba(47, 48, 58, 0.8);
+    margin: 0 0 95px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background:  #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 32px;
+  }
+
+  .list {
+    padding-bottom: 94px;
+  }
+  
+  .list-head {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    padding-top: 55px;
+  }
+
+  .list-item {
+  width: calc((100% - 30px * 3) /4);
+  background: #F5F4FA;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  }
+
+  .list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  
+
+  .list-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+
+
+  .menu-card {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 94px;
+  }
+   
+
+  .work-title {
+    font-family: "Roboto";
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+
+  .work-head {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    background: rgba(47, 48, 58, 0.8);
+    padding: 10px;
+    height: 70px;
+    width: 370px;
+  }
+
+
+  .work-list {
+    list-style: none;
+    display: flex;
+    padding-bottom: 94px;
+  }
+
+  .pic-work {
+    margin-right: 30px;
+  }
+
+  .team {
+    background: #F5F4FA;
+  }
+
+  .team-head {
+    font-family: "Roboto";
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-bottom: 50px;
+    padding-top: 94px;
+    text-align: center;
+  }
+
+  .team-menu {
+    list-style: none;
+    display: flex;
+  }
+
+  .team-list:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .team-list {
+    width: calc((100% - 30px * 3) /4);
+  }
+
+  .link {
+    display: flex;
+  }
+  
+  .head-name {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.team-link {
+  display: flex;
+}
+
+
+.team-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.client-head {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.client-list {
+  padding-bottom: 94px;
+}
+
+.client-item:not(:last-child) {
+margin-right: 30px;
+}
+
+.client-item {
+  border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+width: calc((100% - 30px * 5) /6);
+width: 170px;
+height: 90px;
+}
+
+.client-main {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.info-list {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 1px;
+    top: 2671px;
+}
+
+.logo-footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.contact-list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    padding-top: 9px;
+    padding-bottom: 60px;
+
+}
+
+.adress-main {
+    list-style: none;
+}
+
+.adress-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 9px;
+
+}
+
+.join-head {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.join-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info-link {
+    list-style: none;
+    display: flex;
+}
+
+.button-list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    width: 128px;
+    height: 38px;
+    
+}
+
+.button-list:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-list:hover,
+.button-list:focus {
+    color: white;
+    background: #2196F3;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.portfolio-list {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-menu { 
+    height: 294px;
+    list-style: none;
+    width: calc((100% - 30px * 8) /9);
+
+}
+
+.portfolio-menu:nth-last-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-head {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.text-list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.port-main {
+  padding-bottom: 94px;
+}
+
+
+
