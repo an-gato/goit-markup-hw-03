@@ -124,7 +124,6 @@ font-family: 'Raleway', sans-serif;*/
 
   .title {
     background: rgba(47, 48, 58, 0.8);
-    margin: 0 0 95px;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -146,6 +145,7 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .list {
+    padding-top: 95px;
     padding-bottom: 94px;
   }
   
@@ -166,6 +166,15 @@ font-family: 'Raleway', sans-serif;*/
   width: 270px;
   height: 120px;
   align-items: center;
+  }
+
+  .img-list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 103px;
+    padding-right: 103px;
+    display: flex;
+    
   }
 
   .list-item:not(:last-child) {
@@ -328,15 +337,12 @@ height: 90px;
 
 .info-list {
     background: #2F303A;
-    width: 1600px;
-    height: 252px;
-    left: 1px;
-    top: 2671px;
 }
 
 .logo-footer {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 
 .contact-list {
@@ -349,7 +355,7 @@ height: 90px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     padding-top: 9px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 
 }
 
@@ -378,16 +384,37 @@ height: 90px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .join-footer {
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+
+.link-footer {
+  justify-content: space-around;
+  align-items: center;
+}
+
 .info-link {
     list-style: none;
     display: flex;
+}
+
+
+
+.footer-mail {
+  font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: right;
+    vertical-align: top;
 }
 
 .button-list {
@@ -426,41 +453,53 @@ height: 90px;
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .portfolio-menu { 
-    height: 294px;
     list-style: none;
     width: calc((100% - 30px * 8) /9);
-
+    margin-right: 30px;
+    padding-bottom: 140px;
+    
 }
 
-.portfolio-menu:nth-last-child(3n) {
+.portfolio-list:nth-last-child(3n) {
   margin-right: 0;
 }
 
+
 .portfolio-head {
+    position: absolute;
     font-family: "Roboto";
+    width: 322px;
+    height: 36px;
     font-style: normal;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
     color: #212121;
+    padding-left: 25px;
+    padding-top: 20px;
+
+
 }
 
 .text-list {
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
+    width: 322px;
+    height: 30px;  
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 0.03em;
     color: #757575;
+    padding-top: 60px;
+    padding-left: 25px;
+    
 }
 
 .port-main {
   padding-bottom: 94px;
 }
-
 
 
