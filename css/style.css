@@ -25,17 +25,18 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .logo {
-        font-family: "Raleway";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: black;
-        text-decoration: none;
-        margin-right: 85px;
-        align-items: center;
-      } 
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: black;
+   text-decoration: none;
+   margin-right: 85px;
+   align-items: center;
+    
+  } 
   
 
   .web {
@@ -81,6 +82,7 @@ font-family: 'Raleway', sans-serif;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 0;
   }
 
   .contact-item {
@@ -107,6 +109,11 @@ font-family: 'Raleway', sans-serif;*/
   .contacts-link:hover,
   .contacts-link:focus {
     color: #2196F3;
+  }
+
+  .main {
+    border: 1px solid #ECECEC;
+    transform: translateY(-1px);
   }
 
   .page-title {
@@ -337,15 +344,23 @@ height: 90px;
 
 .info-list {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
+.info-link {
+  display: flex;
+
+}
+
+
 .logo-footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-right: 70px;
   
 }
 
-.contact-list {
+.mail,
+.phone {
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
@@ -361,7 +376,15 @@ height: 90px;
 
 .adress-main {
     list-style: none;
+
 }
+
+.mail,
+.adress-link {
+  margin-bottom: 9px;
+}
+
+
 
 .adress-link {
     font-family: "Roboto";
@@ -372,9 +395,9 @@ height: 90px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
-    padding-bottom: 9px;
 
 }
+
 
 .join-head {
     font-family: "Roboto";
@@ -384,25 +407,12 @@ height: 90px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    text-align: center;
 }
 
-.join-footer {
-  justify-content: space-around;
-  align-items: center;
+.footer-flexbox {
+  display: flex;
+  align-items: baseline;
 }
-
-
-.link-footer {
-  justify-content: space-around;
-  align-items: center;
-}
-
-.info-link {
-    list-style: none;
-    display: flex;
-}
-
 
 
 .footer-mail {
@@ -413,8 +423,6 @@ height: 90px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    text-align: right;
-    vertical-align: top;
 }
 
 .button-list {
@@ -427,11 +435,27 @@ height: 90px;
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
-    border-radius: 4px;
-    width: 128px;
-    height: 38px;
+
     
 }
+
+.logo2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+
+
 
 .button-list:not(:last-child) {
   margin-right: 8px;
@@ -445,6 +469,7 @@ height: 90px;
 
 .button {
   text-align: center;
+  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -459,8 +484,6 @@ height: 90px;
 .portfolio-menu { 
     list-style: none;
     width: calc((100% - 30px * 8) /9);
-    margin-right: 30px;
-    padding-bottom: 140px;
     
 }
 
@@ -484,6 +507,16 @@ height: 90px;
 
 }
 
+.portfolio-item {
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
+  height: 404px;
+}
+
 .text-list {
     font-family: "Roboto";
     font-style: normal;
@@ -498,8 +531,5 @@ height: 90px;
     
 }
 
-.port-main {
-  padding-bottom: 94px;
-}
 
 
