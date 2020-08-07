@@ -247,6 +247,8 @@ font-family: 'Raleway', sans-serif;*/
 
   .team {
     background: #F5F4FA;
+    width: 1600px;
+    height: 708px;
   }
 
   .team-head {
@@ -271,6 +273,10 @@ font-family: 'Raleway', sans-serif;*/
 
   .team-list {
     width: calc((100% - 30px * 3) /4);
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
   }
 
   .link {
@@ -370,7 +376,6 @@ height: 90px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     padding-top: 9px;
-    padding-bottom: 20px;
 
 }
 
@@ -435,7 +440,10 @@ height: 90px;
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
+    border-radius: 4px;
+    border: inherit;
 
+    padding: 6px 22px 6px 22px;
     
 }
 
@@ -479,6 +487,7 @@ height: 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 94px;
 }
 
 .portfolio-menu { 
@@ -516,6 +525,19 @@ height: 90px;
   width: 370px;
   height: 404px;
 }
+
+.portfolio-item:nth-child(7n) {
+  margin-bottom: 0px;
+}
+
+.portfolio-item:nth-child(8n) {
+  margin-bottom: 0px;
+}
+
+.portfolio-item:nth-child(9n) {
+  margin-bottom: 0px;
+}
+
 
 .text-list {
     font-family: "Roboto";
