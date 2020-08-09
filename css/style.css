@@ -71,7 +71,7 @@ font-family: 'Raleway', sans-serif;*/
     align-items: center;
     margin-right: auto; 
     padding-bottom: 25px;
-    padding-top: 24px;
+    padding-top: 25px;
   }
 
   .menu-item:not(:last-child) {
@@ -494,65 +494,57 @@ height: 90px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  
 }
 
 
 .portfolio-list {
-    list-style: none;
-    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .portfolio-menu { 
-    list-style: none;
-    width: calc((100% - 30px * 8) /9);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
+  background-color: white;
+  list-style-type: none;
+
     
 }
 
-.portfolio-list:nth-last-child(3n) {
+.portfolio-item {
+  padding: 20px 24px 20px 24px;
+  
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+
+.portfolio-menu:nth-child(3n) {
   margin-right: 0;
+}
+
+.portfolio-menu:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
+.img-cards {
+  display: block;
 }
 
 
 
 .portfolio-head {
-    position: absolute;
-    font-family: "Roboto";
-    width: 322px;
-    height: 36px;
-    font-style: normal;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    color: #212121;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: #212121;
-    padding-left: 25px;
-    padding-top: 20px;
+    letter-spacing: 0.06em;
 
 
-}
 
-.portfolio-item {
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: 370px;
-  height: 404px;
-}
-
-.portfolio-item:nth-child(7n) {
-  margin-bottom: 0px;
-}
-
-.portfolio-item:nth-child(8n) {
-  margin-bottom: 0px;
-}
-
-.portfolio-item:nth-child(9n) {
-  margin-bottom: 0px;
 }
 
 
@@ -560,13 +552,12 @@ height: 90px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
-    width: 322px;
-    height: 30px;  
     font-size: 16px;
     line-height: 1.875;
     color: #757575;
-    padding-top: 60px;
-    padding-left: 25px;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
