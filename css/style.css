@@ -71,7 +71,7 @@ font-family: 'Raleway', sans-serif;*/
     align-items: center;
     margin-right: auto; 
     padding-bottom: 25px;
-    padding-top: 25px;
+    padding-top: 24px;
   }
 
   .menu-item:not(:last-child) {
@@ -152,8 +152,7 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .list {
-    padding-top: 95px;
-    padding-bottom: 94px;
+    padding-top: 94px;
   }
   
   .list-head {
@@ -209,7 +208,6 @@ font-family: 'Raleway', sans-serif;*/
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
   }
    
 
@@ -242,7 +240,11 @@ font-family: 'Raleway', sans-serif;*/
   .work-list {
     list-style: none;
     display: flex;
-    padding-bottom: 94px;
+  }
+
+  .work-menu {
+    
+    padding: 94px;
   }
 
   .pic-work {
@@ -253,6 +255,7 @@ font-family: 'Raleway', sans-serif;*/
     background: #F5F4FA;
     width: 1600px;
     height: 708px;
+    padding: 94px;
   }
 
   .team-head {
@@ -261,8 +264,7 @@ font-family: 'Raleway', sans-serif;*/
     line-height: 1.166;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
-    padding-top: 94px;
+    margin-bottom: 50px;
     text-align: center;
   }
 
@@ -323,14 +325,13 @@ font-family: 'Raleway', sans-serif;*/
     line-height: 1.166;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
 
 .client-list {
-  padding-bottom: 94px;
+  padding: 94px;
 }
 
 .client-item:not(:last-child) {
@@ -477,8 +478,7 @@ height: 90px;
 }
 
 .button {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px;
 }
 
 .btn-list {
@@ -493,6 +493,8 @@ height: 90px;
 .button-link {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  
 }
 
 
@@ -502,7 +504,6 @@ height: 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 94px;
 }
 
 .portfolio-menu { 
@@ -514,6 +515,7 @@ height: 90px;
 .portfolio-list:nth-last-child(3n) {
   margin-right: 0;
 }
+
 
 
 .portfolio-head {
